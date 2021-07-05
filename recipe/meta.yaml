@@ -1,4 +1,4 @@
-{% set version = "2.2" %}
+{% set version = "2.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RISmed_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RISmed/RISmed_{{ version }}.tar.gz
-  sha256: 6d03545f8cae22dce0c67284ba44a1c7e9aa77a44a0b33c6712293f82cec915b
+  sha256: 0bd191bde3868c80d017caf2af7ccdf38763f892e94b68cd2e28a7f81f42f16e
 
 build:
   merge_build_host: true  # [win]
