@@ -1,11 +1,11 @@
-About r-rismed
-==============
+About r-rismed-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rismed-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=RISmed
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rismed-feedstock/blob/main/LICENSE.txt)
 
 Summary: A set of tools to extract bibliographic content from the National Center for Biotechnology Information (NCBI) databases, including PubMed. The name RISmed is a portmanteau of RIS (for Research Information Systems, a common tag format for bibliographic data) and PubMed.
 
