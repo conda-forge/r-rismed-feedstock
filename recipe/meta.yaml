@@ -1,6 +1,5 @@
 {% set version = "2.3.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-rismed
@@ -13,8 +12,7 @@ source:
   sha256: 0bd191bde3868c80d017caf2af7ccdf38763f892e94b68cd2e28a7f81f42f16e
 
 build:
-  merge_build_host: true  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
